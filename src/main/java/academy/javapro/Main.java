@@ -12,7 +12,6 @@ public class Main {
 
         // TODO: Display car's initial state
 
-        System.out.println("Initial Status:");
         System.out.println("Make: " + newTesla.getMake());
         System.out.println("Model: " + newTesla.getModel());
         System.out.println("Year: " + newTesla.getYear());
