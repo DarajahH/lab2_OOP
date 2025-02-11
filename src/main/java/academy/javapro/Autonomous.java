@@ -1,4 +1,4 @@
-
+package academy.javapro;
 
 public interface Autonomous {
 	

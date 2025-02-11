@@ -14,6 +14,17 @@ public class Tesla extends Vehicle implements Electric, Autonomous {
     	
     }
 
+    public void startCar() {
+        System.out.println("Tesla is now powered on silently.");
+        isRunning = true;
+    }
+    
+    @Override
+    public void stopEngine() {
+        System.out.println("Tesla is shutting down.");
+        isRunning = false;
+    }
+    
 	@Override
 	public void enableAutopilot() {
 		// TODO Auto-generated method stub

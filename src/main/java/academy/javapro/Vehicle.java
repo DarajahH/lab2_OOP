@@ -12,9 +12,9 @@ public abstract class Vehicle {
     	  this.make = make;
           this.model = model;
           this.year = year;
-          this.isRunning = false; 
+          this.isRunning = false;
+		return null; 
           
-          return null;
     }
     
     // TODO: Add abstract methods
