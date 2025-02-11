@@ -8,10 +8,10 @@ public class Tesla extends Vehicle implements Electric, Autonomous {
     
     // TODO: Set make to "Tesla"
     
-    public Tesla(String model, int Year) {
-    	
-    	make = "Tesla";
-    	
+    public Tesla(String make,String model, int year) {
+    	this.make = "Tesla";
+    	this.model = "model s";
+    	this.year = 2024;
     }
 
  
@@ -32,7 +32,7 @@ public class Tesla extends Vehicle implements Electric, Autonomous {
 	@Override
 	public boolean isAutopilotEnabled() {
 		// TODO Auto-generated method stub
-		return false;
+		return autopilotEnabled;
 	}
 
 	@Override
@@ -76,7 +76,7 @@ public class Tesla extends Vehicle implements Electric, Autonomous {
 	@Override
 	public boolean isCharging() {
 		// TODO Auto-generated method stub
-		return false;
+		return charging;
 	}
     
     // TODO: Initialize autopilotEnabled and charging to false

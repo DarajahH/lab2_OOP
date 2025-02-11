@@ -13,8 +13,8 @@ public abstract class Vehicle {
           this.model = model;
           this.year = year;
           this.isRunning = false;
-		return null; 
-          
+		
+        return car(model, model, year, isRunning);  
     }
     
     // TODO: Add abstract methods
