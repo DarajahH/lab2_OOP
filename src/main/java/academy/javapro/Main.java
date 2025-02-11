@@ -4,9 +4,11 @@ public class Main {
     public static void main(String[] args) {
         // Step 1: Create a new Tesla Model S, 2024
         // TODO: Add your code here
-
+    	
+    	Tesla newTesla = new Tesla("model s", 2024);
+    	
         // Step 2: Display initial status
-        System.out.println("Initial Status:");
+        System.out.println("Initial Status:" + newTesla.getClass());
         // TODO: Display car's initial state
 
         // Step 3: Start the car and test basic vehicle functions
